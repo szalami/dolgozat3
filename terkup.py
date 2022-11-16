@@ -23,7 +23,7 @@ h = int(input("A kúp magassága /cm/: "))
 
 v = (1/3) * pow(r, 2) * math.pi * h
 
-print("A kúp térfogata: {:.5f}".format(v), "cm3")
+print("A kúp térfogata: {:.4f}".format(v), "cm3")
 
 print()
 
