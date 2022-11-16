@@ -18,12 +18,12 @@ print("2022-11-17")
 
 print()
 
-r = int(input("Az alap sugara: "))
-h = int(input("A kúp magassága: "))
+r = int(input("Az kúp alapjának a sugara /cm/: "))
+h = int(input("A kúp magassága /cm/: "))
 
 v = (1/3) * pow(r, 2) * math.pi * h
 
-print("A kúp térfogata: ", v)
+print("A kúp térfogata: {:.5f}".format(v), "cm3")
 
 print()
 
